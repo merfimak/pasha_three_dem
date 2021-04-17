@@ -494,9 +494,11 @@ h6 {
   margin: 0 0 30px 0;
   font-size: 20px;
   font-weight: 700;
+  color: #222629;
 }
 
 .about_text {
+  color: #222629;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
@@ -506,6 +508,7 @@ h6 {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 200px;
   flex: 0 0 200px;
+  height: 200px;
   width: 200px;
   border-radius: 50%;
   overflow: hidden;
@@ -525,6 +528,7 @@ h6 {
 }
 
 .about_contact_title {
+  color: #222629;
   margin: 0 0 30px 0;
   font-size: 18px;
   font-weight: 700;
@@ -541,7 +545,7 @@ h6 {
 }
 
 .about_contact_item a {
-  color: #8EEB00;
+  color: #222629;
 }
 
 .fullsreen {
@@ -575,6 +579,7 @@ h6 {
   text-align: center;
   font-size: 30px;
   font-weight: 700;
+  color: #222629;
   text-transform: uppercase;
 }
 
@@ -608,7 +613,7 @@ h6 {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
-  color: #70227E;
+  color: #222629;
 }
 
 .news_video {
@@ -703,7 +708,7 @@ h6 {
   -ms-flex-align: center;
   align-items: center;
   min-height: 60px;
-  background-color: #5C9900;
+  background-color: #86C232;
   color: #fff;
   font-size: 23px;
   text-transform: uppercase;
@@ -725,7 +730,7 @@ h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #A60000;
+  background-color: #5C9900;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -809,7 +814,7 @@ input[type=range]::-webkit-slider-thumb {
   height: 36px;
   width: 16px;
   border-radius: 3px;
-  background: #7CB02C;
+  background: #5C9900;
   cursor: pointer;
   margin-top: -14px;
   /* Вам нужно указать значение для поля в Chrome, но в Firefox и IE это происходит автоматически */
@@ -826,7 +831,7 @@ input[type=range]::-moz-range-thumb {
   height: 36px;
   width: 16px;
   border-radius: 3px;
-  background: #7CB02C;
+  background: #5C9900;
   cursor: pointer;
 }
 
@@ -838,7 +843,7 @@ input[type=range]::-ms-thumb {
   height: 36px;
   width: 16px;
   border-radius: 3px;
-  background: #7CB02C;
+  background: #5C9900;
   cursor: pointer;
 }
 
@@ -850,13 +855,13 @@ input[type=range]::-webkit-slider-runnable-track {
   cursor: pointer;
   -webkit-box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  background: #5C9900;
+  background: #86C232;
   border-radius: 1.3px;
   border: 0.2px solid #010101;
 }
 
 input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #5C9900;
+  background: #86C232;
 }
 
 input[type=range]::-moz-range-track {
@@ -864,7 +869,7 @@ input[type=range]::-moz-range-track {
   height: 8.4px;
   cursor: pointer;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
-  background: #5C9900;
+  background: #86C232;
   border-radius: 1.3px;
   border: 0.2px solid #010101;
 }
@@ -880,25 +885,25 @@ input[type=range]::-ms-track {
 }
 
 input[type=range]::-ms-fill-lower {
-  background: #5C9900;
+  background: #86C232;
   border: 0.2px solid #010101;
   border-radius: 2.6px;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
 
 input[type=range]:focus::-ms-fill-lower {
-  background: #5C9900;
+  background: #86C232;
 }
 
 input[type=range]::-ms-fill-upper {
-  background: #5C9900;
+  background: #86C232;
   border: 0.2px solid #010101;
   border-radius: 2.6px;
   box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
 }
 
 input[type=range]:focus::-ms-fill-upper {
-  background: #5C9900;
+  background: #86C232;
 }
 
 .range_value_div {
@@ -976,7 +981,7 @@ input[type=range]:focus::-ms-fill-upper {
   left: 4px;
   width: 16px;
   height: 16px;
-  background-color: #5C9900;
+  background-color: #86C232;
   border-radius: 50%;
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
@@ -1066,7 +1071,7 @@ textarea.form_input {
   -ms-flex-align: center;
   align-items: center;
   min-height: 60px;
-  background-color: #5C9900;
+  background-color: #86C232;
   color: #fff;
   font-size: 18px;
   text-transform: uppercase;
@@ -1084,7 +1089,7 @@ textarea.form_input {
 }
 
 .form_button:hover {
-  background-color: #7CB02C;
+  background-color: #5C9900;
 }
 
 .form_button:active {
@@ -1106,7 +1111,7 @@ textarea.form_input {
   margin: 30px 0 30px 0;
   font-size: 25px;
   text-transform: uppercase;
-  color: #8EEB00;
+  color: #86C232;
 }
 
 .suma_title {
@@ -1374,6 +1379,7 @@ textarea.form_input {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 180px;
     flex: 0 0 180px;
+    height: 180px;
     width: 180px;
   }
 
